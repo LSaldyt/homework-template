@@ -1,5 +1,6 @@
 % Homework template created by Jonathan Wheeler
 % for use at Stanford University.
+% Edited by Lucas Saldyt
 %
 % Adapted from a jhwhw.cls file I found on
 % github.
@@ -7,7 +8,7 @@
 % In sublime, use Cmd-L, backspace to 
 % clear auxiliary files 
 
-\documentclass[notitlepage]{jmwhw}
+\documentclass[notitlepage]{homework}
 
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -26,8 +27,10 @@
 \usepgfplotslibrary{fillbetween}
 \usetikzlibrary{calc}
 
-\author{Jonathan Wheeler} %TODO
-\title{sample} %TODO
+\newcommand{\AssignmentName}{TITLE}
+
+\author{Lucas Saldyt} %TODO
+\title{\AssignmentName}
 
 
 \begin{document}
@@ -36,13 +39,13 @@
 
 \begin{titlepage}
 	\begin{center}
-		{\Large sample} % TODO
+		{\Large \AssignmentName}
 		
 		\bigskip
 
 		\begin{tabular}{rl}
-			SUNet ID: & 12345678 \\ % TODO
-			Name: & Jonathan Wheeler (jamwheel@stanford.edu) \\ % TODO
+			ID: & 12345678 \\ % TODO
+            Name: & Lucas Saldyt (lsaldyt@asu.edu) \\ % TODO
 			Collaborators: & $\varnothing$
 		\end{tabular}
 
@@ -54,12 +57,6 @@
 
 	\vfill
 
-	\begin{center}
-		\parbox{10cm}{
-		By turning in this assignment, I agree by the Stanford honor code and
-		declare that all of this is my own work.
-		}
-	\end{center}
 \end{titlepage}
 
 % TODO
