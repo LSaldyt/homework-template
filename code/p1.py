@@ -9,5 +9,5 @@ image_file = os.path.join(script_dir, '../images/p1.png')
 
 xs = np.linspace(-5, 5, 100)
 ys = xs**2 - 1
-plt.plot(xs, ys)
+plt.plot(xs, ys, color='orange')
 plt.savefig(image_file, dpi=300)
