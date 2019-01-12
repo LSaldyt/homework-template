@@ -1,24 +1,21 @@
 %=====================================================================
-% jmwhw.cls
-% Provide jmwhw.cls class
+% homework.cls
+% Provide homework.cls class
 %=====================================================================
 
 %=====================================================================
 % Identification
 %=====================================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{jmwhw}
+\ProvidesClass{homework}
 
 \LoadClass[letterpaper, 12pt]{report}
-%\RequirePackage{jhwmath} Personal style file I use.
 
 \RequirePackage{fancyhdr}
 \RequirePackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{empheq}
 \RequirePackage{ifthen}
-%\RequirePackage{jhwgraphics} Another personal style file I use.
-
 
 %=====================================================================
 % Commands
