@@ -1,0 +1,12 @@
+# Latex Auxillary Files
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+
+# Other
+
+_minted-sample/*

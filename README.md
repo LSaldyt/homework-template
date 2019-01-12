@@ -1,19 +1,15 @@
-# Jonathan Wheeler's LaTeX Homework Template
+# Lucas Saldyt's LaTeX Homework Template for ASU
+Based off of a template by Jonathan Wheeler, made for Stanford University.
 
-This is a template that I use to do my homework writeups at Stanford University. It was forked off of [this template](https://gist.github.com/seldonPlan/3420170)
 Check out the compiled .pdf file. If you like it, and start using it, please leave a star on GitHub so that others can find this too!
 
 ## Installation
 
-You will obviously need to have LaTeX installed on your
-computer. Use tools like brew to do this.
-
-From here, there will be several other packages that will need
-to be installed, such as minted for code formatting, etc...
+After [installing latex](https://www.latex-tutorial.com/installation/), simply open the file sample.tex, and save a copy as your new file.
 
 ## Template
 
-I've included a sample homework file with two sample problems.
+The sample includes a homework file with two problems.
 
 For simplicity, it is easier to split things into individual files. You can either associate all the files for a particular problem in a folder together, or you can put types of files (images, code, etc...) in folders together.
 This comes down to personal preference.
