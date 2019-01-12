@@ -1,0 +1,26 @@
+\problem{Verifying Tautology by Truth Table}
+
+Verify that $(A \Rightarrow (B \vee C)) \Leftrightarrow ((A \wedge \neg B) \Rightarrow C)$
+
+\solution
+
+\part 
+
+\begin{center}
+\begin{tabular}{ |r|r|r|r|r|r|r|r| }
+ \hline
+ A & B & C & B \vee C & \neg B & A \wedge \neg B & A \Rightarrow (B \vee C) & (A \wedge \neg B) \Rightarrow C \\
+ \hline
+ T & T & T & T        & F      & F               & T                        & T                               \\
+ T & T & F & T        & F      & F               & T                        & T                               \\
+ T & F & T & T        & T      & T               & T                        & T                               \\
+ T & F & F & F        & T      & T               & F                        & F                               \\
+ F & T & T & T        & F      & F               & T                        & T                               \\
+ F & T & F & T        & F      & F               & T                        & T                               \\
+ F & F & T & T        & T      & F               & T                        & T                               \\
+ F & F & F & F        & T      & F               & T                        & T                               \\
+ \hline
+\end{tabular}
+\end{center}
+
+As the last two columns are identical, $(A \Rightarrow (B \vee C)) \Leftrightarrow ((A \wedge \neg B) \Rightarrow C)$ is a tautology.

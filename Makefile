@@ -9,14 +9,8 @@ all : sample.pdf
 view :
 	open sample.pdf || zathura sample.pdf
 
-sample.pdf : sample.tex p1 p2
+sample.pdf : sample.tex
 	$(TEX) sample.tex
-
-p1: code/p1.py
-	$(PYTHON) code/p1.py
-
-p2: code/p2.py data/sample.csv
-	$(PYTHON) code/p2.py
 
 clean:
 	latexmk -CA

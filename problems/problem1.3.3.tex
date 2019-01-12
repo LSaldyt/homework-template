@@ -1,0 +1,20 @@
+\problem{Quantification and Ordering}
+
+Consider the predicate about integers ``x = 2y``, which contains two free variables. 
+There are six distinct ways to use quantification to turn this predicate into a statement (Why six?).
+Find all six statements and determine the truth or falsehood of each.
+
+\solution
+
+\part 
+
+Given ``there exists`` and ``for all``, there are six distinct quantifications because identical quantifiers cannot be swapped to make a new quantification, but otherwise order matters when quantifying. Assume x and y are taken from the real numbers.
+
+\begin{enumerate}
+    \item There exists an $x$ and there exists a $y$ such that $x = 2y$. This is true. It is saying that given some arbitrary number, its double exists.
+    \item There exists an $x$ such that for all $y$, $y$ $x = 2y$. This is false. It is saying that given some arbitrary number, all of the real numbers are it doubled.
+    \item There exists a $y$ such that for all $x$, $y$ $x = 2y$. This is false for the same reason as 2, except halved instead of doubled.
+    \item For all $y$ and for all $x$, $x = 2y$. This is false. It is saying that all real numbers are doubles/halves of each other.
+    \item For all $y$, there exists an $x$ such that $x = 2y$. This is true, since $x$ is assigned after $y$.
+    \item For all $x$, there exists a $y$ such that $x = 2y$. This is true, since $y$ is assigned after $x$.
+\end{enumerate}
